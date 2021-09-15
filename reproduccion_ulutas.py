@@ -315,6 +315,10 @@ antibodies_pool
 
 # %% [markdown]
 # # Remove worst members of the antibodies pool (RECEPTOR EDITING)
+# %% [markdown]
+# "After mutation processes, the
+# antibodies that have worse efficacy values are erased (worst
+# %B of the whole population)"
 
 # %%
 def receptor_editing(antibodies_pool,updated_efficacies, B):
@@ -331,11 +335,30 @@ def receptor_editing(antibodies_pool,updated_efficacies, B):
 
 
 # %%
-antibodies_pool = receptor_editing(antibodies_pool = antibodies_pool, updated_efficacies = updated_efficacies, B = 0.5)
+B = 0.5
+antibodies_pool = receptor_editing(antibodies_pool = antibodies_pool, updated_efficacies = updated_efficacies, B = B)
 antibodies_pool
 
 # %% [markdown]
 # # New Random antibodies into the population
+# %% [markdown]
+# "Then, same percent of new
+# antibodies are randomly generated"
+# 
+# La pregunta es la misma cantidad de anticuerpos que hemos borrado en el apartado anterior o el mismo porcentaje (B) sobre la nueva población que se ha visto disminuida por el receptor editing.
+
+# %%
+number_new_random_antibodies = round(len(antibodies_pool)*B)
+
+new_random_antibodies = generation_initial_population(p = p, 
+                                                    m = m, 
+                                                    population_size = number_new_random_antibodies, 
+                                                    seed = 1995)
+print(new_random_antibodies)
+
+antibodies_pool = np.concatenate((antibodies_pool, new_random_antibodies), axis = 0)
+antibodies_pool
+
 # %% [markdown]
 # # Stopping criteria
 
