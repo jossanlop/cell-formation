@@ -4,36 +4,22 @@
 import numpy as np
 import pandas as pd
 import heapq
-import random
-
-# %% [markdown]
-# # Generation of initial population of random antibodies
 
 # %%
 # m: number of machines
 # p: number of parts
 # population_size : number of antibody of the initial population
 # seed: seed for reproducible results
-def generation_initial_population(p, m, population_size, seed):
+def generation_initial_population(p, m, population_size):
     MaxCell = min(p,m) #calculation of max number of cells
     number_of_zeros = MaxCell - 1 #number of zeros in each antibody
     antibodies = np.empty(shape=(population_size, p+m+number_of_zeros), dtype=int)
     antibody = np.append(np.array([*range(1,p+m+1)]), np.zeros(number_of_zeros,dtype=int))
     for i in range(0,population_size):
-        np.random.seed(seed) 
+        # np.random.seed(seed) 
         np.random.shuffle(antibody) #random positions in the array
         antibodies[i] = antibody
     return antibodies
-
-
-# %%
-antibodies = generation_initial_population(p = 7, m = 5, population_size = 3, seed = 1995)
-antibodies
-
-# %% [markdown]
-# # Evaluate all existing antibodies and compute their affinities
-# %% [markdown]
-# Lectura de los datos del problema + Traducción del formato del dataset a matriz trabajo-estación
 
 # %%
 def part_machine_incidence_matrix(data):    
@@ -43,42 +29,35 @@ def part_machine_incidence_matrix(data):
 
     m,p = [int(num) for num in lines[8][0].split(' ')] #m: number of machines, p: number of parts
 
-    machines=[[m,p]]
+    machines=[] # matrix with representation of data
     for i in range(9,9+m):
-        #machines.append([int(num) for num in lines[i][0].split(' ')])
-        machines.append([int(lines[i][0].split(' ')[j]) for j in range(1,m)])
-
+        machine_line = []
+        for operation in lines[i][0].split(' '):
+            if operation != '': machine_line.append(int(operation))
+        machines.append(machine_line)
     columns, rows = ['M'+str(i) for i in range(1,m+1)], ['P'+str(i) for i in range(1,p+1)]
     m_p_matrix = pd.DataFrame(columns= columns, index= rows)
-
-    ones_zeros = []
-    for i in range(1,len(machines)):
+    ones_zeros = [] #ones and zeros vector
+    number_of_operations = 0 #number of 'ones' in the part-machine matrix
+    for i in range(0,len(machines)):
         aux = []
         for j in range(1,p+1):
-            if j in machines[i]: aux.append(1)
+            if j in machines[i]: 
+                aux.append(1)
+                number_of_operations = number_of_operations +1
             else: aux.append(0)
-        ones_zeros.append(aux)
-
+        ones_zeros.append(aux) 
     for i in range(0,len(columns)):
         m_p_matrix[columns[i]] = ones_zeros[i]
 
-    return m_p_matrix, m, p, columns, rows
-
-
-# %%
-matrix, m, p, columns, rows = part_machine_incidence_matrix('data/instances/testset_a/5x7_Waghodekar_Sahu(1984)[Problem-2].txt')
-matrix
-
-# %% [markdown]
-# ## Decodificación de anticuerpos
-# 1er Paso: Separación de celdas.
+    return m_p_matrix, m, p, number_of_operations, columns, rows
 
 # %%
 def cell_identification(antibodies):
     total_cells = []
     for antibodie in antibodies:
-        print("antibodie", antibodie)
-        flag = 0 #bandera que indica si el num anterior es un cero
+        # print("antibodie", antibodie)
+        flag = 1 #bandera que indica si el num anterior es un cero
         cells, cell = [],[]
         i = 0
         for num in antibodie:
@@ -101,19 +80,11 @@ def cell_identification(antibodies):
     # print("cells for antibody 1",total_cells[0])
     return total_cells
 
-
 # %%
-total_cells = cell_identification(antibodies = antibodies)
-total_cells
-
-# %% [markdown]
-# reorganizar filas y columnas de la matriz maquinas-trabajos en función de lo descrito por el anticuerpo
-
-# %%
-def decode_cells(total_cells):
+def decode_cells(total_cells, rows, columns, p, log):
     total_machines, total_parts = [], []
     for antibodie in total_cells:
-        print("antibodie",antibodie)
+        # print("antibodie",antibodie)
         machines = []
         parts = []
         decoded_antibodie = antibodie
@@ -129,19 +100,12 @@ def decode_cells(total_cells):
             antibodie = decoded_antibodie
         total_machines.append(machines)
         total_parts.append(parts)
-        print("decoded",antibodie)
+        if log: print("decoded antibodies",antibodie)
 
     return total_machines, total_parts
     # print(total_machines)
     # print(total_parts)
 
-
-# %%
-total_machines, total_parts = decode_cells(total_cells=total_cells)
-
-# %% [markdown]
-# Representación de la matriz: usamos total_machines y total_parts, donde hemos colocado en orden las máquinas y los trabajos respectivamente.
-# 
 
 # %%
 def create_machine_part_matrix(matrix, antibodies, total_machines, total_parts):
@@ -153,32 +117,30 @@ def create_machine_part_matrix(matrix, antibodies, total_machines, total_parts):
     return antibody_matrices
 
 
-antibody_matrices = create_machine_part_matrix(matrix=matrix,
-                                                antibodies=antibodies, 
-                                                total_machines=total_machines, 
-                                                total_parts=total_parts)
-antibody_matrices
-
-
 # %%
-def evaluate_antibodies(antibody_matrices, total_cells): #m and p should be added as parameters
-    exceptions, voids = [],[]
+def evaluate_antibodies(antibody_matrices, total_cells, number_of_operations): #m and p should be added as parameters
+    exceptions, voids, penalties = [],[],[]
     for i in range(0,len(total_cells)):
         # print("\n",total_cells[i])
         # print(antibody_matrices[i])
-        void, exception = 0,0
+        void, exception, penalty, operations_number = 0,0,0,0 #operations_number is number of 'ones' in part-machine matrix
+        cell_machine_flag, cell_flag_part = 0,0
         for cell in total_cells[i]:
             # print(cell)
             machines, parts = [], []
+            machine_flag, part_flag = 0,0 #flag variables for calculation of penalties
             for mp in cell:
                 if mp[0] == 'M': 
                     machines.append(mp)
+                    machine_flag = 1
                     # print(machines)
                 if mp[0] == 'P': 
                     parts.append(mp)
+                    part_flag = 1
                     # print(parts)
-                # else: print('error')
-            
+            if machine_flag == 0: cell_machine_flag = 1
+            if part_flag == 0: cell_flag_part = 1
+            # print(i, cell_machine_flag, cell_flag_part)
             for machine in machines:
                 for part in antibody_matrices[i].index:
                     if part in parts and antibody_matrices[i][machine][part] == 0: 
@@ -191,180 +153,120 @@ def evaluate_antibodies(antibody_matrices, total_cells): #m and p should be adde
             # print("\n")
         voids.append(void)
         exceptions.append(exception)
+        penalty = 0.5 * (cell_machine_flag + cell_flag_part)
+        # print(penalty)
+        penalties.append(penalty)
     # print("voids",voids)
     # print("exceptions",exceptions)
-    efficacies = []
-    matrix_dimension = m*p
+    efficacies, affinities = [], []
+    # matrix_dimension = m*p
     for i in range(0,len(total_cells)):
-        exceptions_ratio = exceptions[i]/matrix_dimension
-        voids_ratio = voids[i]/matrix_dimension
+        exceptions_ratio = exceptions[i]/number_of_operations
+        voids_ratio = voids[i]/number_of_operations
         efficacy= (1-exceptions_ratio)/(1+voids_ratio)
-        efficacies.append(efficacy)
-    return efficacies, voids, exceptions
+        # efficacies.append(efficacy)
+        efficacies.append(efficacy - efficacy * penalties[i])
+        affinities.append(efficacy - efficacy * penalties[i])
+    return efficacies, affinities, voids, exceptions
 
-
-# %%
-efficacies, voids, exceptions = evaluate_antibodies(antibody_matrices = antibody_matrices, total_cells=total_cells)
-efficacies
 
 
 # %%
-def calculate_efficacies(total_cells, m, p):
-    efficacies = []
-    matrix_dimension = m*p
-    for i in range(0,len(total_cells)):
-        exceptions_ratio = exceptions[i]/matrix_dimension
-        voids_ratio = voids[i]/matrix_dimension
-        efficacy= (1-exceptions_ratio)/(1+voids_ratio)
-        efficacies.append(efficacy)
-    return efficacies 
+def antibodies_selection(antibodies, N, affinities):
+    population_pool = len(antibodies)
+    # special treatment if all affinities are 0:
+    if np.count_nonzero(affinities): #if there are non-zero values, we calculate normally de selection probabilities
+        sel_probabilities = affinities/np.sum(affinities) #selection probabilities
+    else: #if all affinity values are zero, then we set equal probabilities to the whole population.
+        sel_probabilities = np.ones(len(affinities))
+        # print(sel_probabilities)
+        sel_probabilities = sel_probabilities/np.sum(sel_probabilities)
+        # print(sel_probabilities)
+
+    size = round(population_pool*N)
+    nonzero_affinities = np.count_nonzero(sel_probabilities)
+    if nonzero_affinities < size: # if there are more antibodies to be selected than affinities different from zero
+        # print("MORE antibodies to be selected than affinities different from zero")
+        # print(sel_probabilities)
+        # print("number of antibodies to be selected",size)
+        positions_antibodies_selected = np.random.choice(population_pool, size=nonzero_affinities, replace=False, p = sel_probabilities)
+        sel_probabilities[:] = 1
+        sel_probabilities[positions_antibodies_selected] = 0
+        sel_probabilities = sel_probabilities/np.sum(sel_probabilities)
+        # print("new probabilities",sel_probabilities)
+        add_number_of_antibodies = size - nonzero_affinities
+        add_positions_antibodies_selected = np.random.choice(population_pool, size=add_number_of_antibodies, replace=False, p = sel_probabilities)
+        positions_antibodies_selected = np.concatenate((positions_antibodies_selected, add_positions_antibodies_selected), axis = 0)
+        antibodies_selected = antibodies[positions_antibodies_selected.tolist()]
+        # return print("¡¡ERROR!! en la selección inicial de anticuerpos. INSUFICIENTES ANTICUERPOS CON AFINIDAD > 1")
+        return antibodies_selected, positions_antibodies_selected
+    else:
+        # print("LESS antibodies to be selected than affinities different from zero")
+        # print(sel_probabilities)
+        positions_antibodies_selected = np.random.choice(population_pool, size=size, replace=False, p = sel_probabilities)
+        antibodies_selected = antibodies[positions_antibodies_selected.tolist()]
+        return antibodies_selected, positions_antibodies_selected
 
 
 # %%
-efficacies = calculate_efficacies(total_cells = total_cells, m = m, p = p)
-efficacies
-
-# %% [markdown]
-# # Select N% of antibodies with highest affinities & Clone selected antibodies
-# %% [markdown]
-# con el parámetro p de probabilities de np.random.choice podemos pasar un vector de probabilidades para el sampleo
-
-# %%
-def antibodies_selection(antibodies, N):
-    positions_antibodies_selected = np.random.choice(len(antibodies), size=(round(len(antibodies)*N)), replace=False)
-    antibodies_selected = antibodies[positions_antibodies_selected.tolist()]
-    return antibodies_selected, positions_antibodies_selected
-
-cloned_antibodies, positions_antibodies_selected = antibodies_selection(antibodies=antibodies, N=0.66)
-
-print(positions_antibodies_selected)
-cloned_antibodies
-
-# %% [markdown]
-# # Mutation operator
-# %% [markdown]
-# Aqui estoy comentiendo un fallo y es que realizo la mutación en todos los casos.
-# Se debe comparar la efficacy del anticuerpo antes y después de la mutación y quedarse con el mejor.
-# %% [markdown]
-# ## Maturate cloned antibodies
-
-# %%
-def mutate_cloned_antibodies(cloned_antibodies):
+def mutate_cloned_antibodies(cloned_antibodies, log):
     for antibodie in cloned_antibodies:
-        print(antibodie)
+        # print(antibodie)
         positions = np.random.choice(len(antibodie),size=2,replace=False)
-        print(positions)
+        # print(positions)
         antibodie[positions[0]], antibodie[positions[1]] = antibodie[positions[1]], antibodie[positions[0]]
-    return cloned_antibodies
-
-
-# %%
-mutate_cloned_antibodies(cloned_antibodies = cloned_antibodies)
-
-# %% [markdown]
-# ## Evaluate cloned antibodies
+    if log: return cloned_antibodies
+    else: return
 
 # %%
-cloned_total_cells = cell_identification(cloned_antibodies)
-cloned_total_cells
+def select_best_cloned_antibodies(antibodies, cloned_antibodies, efficacies, 
+                                    cloned_efficacies,
+                                    affinities,
+                                    cloned_affinities, 
+                                    R, 
+                                    positions_antibodies_selected,
+                                    log):
+    #if antibody efficacy improves after mutation, we keep the mutated antibody, otherwise we dismiss it.
+    j = 0
+    for i in range(0,len(cloned_antibodies)):
+        if cloned_efficacies[i] < efficacies[(positions_antibodies_selected[i])]:
+            if log: print("\nclon {} presenta peor eficacia al ser mutado".format(cloned_antibodies[i]))
+            if log: print("eficacia clon mutado",cloned_efficacies[i])
+            if log: print("eficacia clon sin mutar",efficacies[(positions_antibodies_selected[i])])
+            cloned_antibodies[i] = antibodies[(positions_antibodies_selected[i])]
+            cloned_efficacies[i] = efficacies[(positions_antibodies_selected[i])]
+            cloned_affinities[i] = affinities[(positions_antibodies_selected[i])]
+            # print("Conservamos el clon {} original".format(cloned_antibodies[i]))
 
-
-# %%
-cloned_total_machines, cloned_total_parts = decode_cells(cloned_total_cells)
-
-
-# %%
-cloned_antibody_matrices = create_machine_part_matrix(matrix = matrix,
-                                                        antibodies=cloned_antibodies, 
-                                                        total_machines = cloned_total_machines, 
-                                                        total_parts= cloned_total_parts)
-cloned_antibody_matrices
-
-
-# %%
-cloned_efficacies, cloned_voids, cloned_exceptions = evaluate_antibodies(cloned_antibody_matrices, cloned_total_cells)
-cloned_efficacies
-
-# %% [markdown]
-# ## Add R% of best cloned antibodies to the pool of antibodies
-# %% [markdown]
-# select the R% of best cloned antibodies and adds them to the pool of antibodies
-
-# %%
-def select_best_cloned_antibodies(antibodies, cloned_antibodies, efficacies, cloned_efficacies, R):
-    updated_efficacies = 0
-    amount_antibodies = round(len(cloned_efficacies)*R)
-    print("{} antibodies were added to the antibodies pool".format(amount_antibodies))
-    positions = [i
+    # second part of the function: select R% of the best (efficacy) cloned antibodies
+    amount_selected_antibodies = round(len(cloned_efficacies)*R)
+    if log: print("\n{} antibodies were selected and updated in the pool".format(amount_selected_antibodies))
+    positions = [i #positions of best R% of selected antibodies
         for x, i
         in heapq.nlargest(
-            amount_antibodies,
+            amount_selected_antibodies,
             ((x, i) for i, x in enumerate(cloned_efficacies)))]
-    updated_antibodies_pool = np.concatenate((antibodies, cloned_antibodies[(positions)]), axis = 0)
-    cloned_efficacies = np.array(cloned_efficacies)
-    updated_efficacies = efficacies + cloned_efficacies[(positions)].tolist()
-    return updated_antibodies_pool, updated_efficacies
+    if log: print("Positions in the pool of updated antibodies",positions_antibodies_selected[(positions)])
+    for i in range(0,amount_selected_antibodies):
+        antibodies[(positions_antibodies_selected[(positions[i])])] = cloned_antibodies[(positions[i])]
+        efficacies[(positions_antibodies_selected[(positions[i])])] = cloned_efficacies[(positions[i])]
+        affinities[(positions_antibodies_selected[(positions[i])])] = cloned_affinities[(positions[i])]
+    return antibodies, efficacies, affinities
 
 
 # %%
-antibodies_pool, updated_efficacies = select_best_cloned_antibodies(antibodies = antibodies,
-                                                                    cloned_antibodies = cloned_antibodies,
-                                                                    efficacies = efficacies, cloned_efficacies = cloned_efficacies, R = 0.5)
-print(updated_efficacies)
-antibodies_pool
-
-# %% [markdown]
-# # Remove worst members of the antibodies pool (RECEPTOR EDITING)
-# %% [markdown]
-# "After mutation processes, the
-# antibodies that have worse efficacy values are erased (worst
-# %B of the whole population)"
-
-# %%
-def receptor_editing(antibodies_pool,updated_efficacies, B):
-    amount_antibodies = round(len(updated_efficacies)*B)
-    print("Se han borrado {} anticuerpos".format(amount_antibodies))
+def receptor_editing(antibodies_pool,efficacies,affinities, B, log):
+    amount_antibodies = round(len(efficacies)*B)
+    if log: print("\n{} antibodies were deleted".format(amount_antibodies))
     positions = [i
         for x, i
         in heapq.nsmallest(
             amount_antibodies,
-            ((x, i) for i, x in enumerate(updated_efficacies)))]
-    print(positions)
+            ((x, i) for i, x in enumerate(efficacies)))]
+    # print(positions)
     antibodies_pool = np.delete(antibodies_pool, positions, axis=0)
-    return antibodies_pool
+    efficacies = np.delete(efficacies, positions, axis=0)
+    affinities = np.delete(affinities, positions, axis=0)
+    return antibodies_pool, efficacies, affinities, amount_antibodies
 
-
-# %%
-B = 0.5
-antibodies_pool = receptor_editing(antibodies_pool = antibodies_pool, updated_efficacies = updated_efficacies, B = B)
-antibodies_pool
-
-# %% [markdown]
-# # New Random antibodies into the population
-# %% [markdown]
-# "Then, same percent of new
-# antibodies are randomly generated"
-# 
-# La pregunta es la misma cantidad de anticuerpos que hemos borrado en el apartado anterior o el mismo porcentaje (B) sobre la nueva población que se ha visto disminuida por el receptor editing.
-
-# %%
-number_new_random_antibodies = round(len(antibodies_pool)*B)
-
-new_random_antibodies = generation_initial_population(p = p, 
-                                                    m = m, 
-                                                    population_size = number_new_random_antibodies, 
-                                                    seed = 1995)
-print(new_random_antibodies)
-
-antibodies_pool = np.concatenate((antibodies_pool, new_random_antibodies), axis = 0)
-antibodies_pool
-
-# %% [markdown]
-# # Stopping criteria
-
-# %%
-
-
-# %% [markdown]
-# 
 
