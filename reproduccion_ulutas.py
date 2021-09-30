@@ -32,8 +32,10 @@ def part_machine_incidence_matrix(data):
     machines=[] # matrix with representation of data
     for i in range(9,9+m):
         machine_line = []
+        j = 0 #contador para saltar primera columna correspondiente a la máquina y no a la incidencia
         for operation in lines[i][0].split(' '):
-            if operation != '': machine_line.append(int(operation))
+            if operation != '' and j>0: machine_line.append(int(operation))
+            j = j +1
         machines.append(machine_line)
     columns, rows = ['M'+str(i) for i in range(1,m+1)], ['P'+str(i) for i in range(1,p+1)]
     m_p_matrix = pd.DataFrame(columns= columns, index= rows)
@@ -51,6 +53,7 @@ def part_machine_incidence_matrix(data):
         m_p_matrix[columns[i]] = ones_zeros[i]
 
     return m_p_matrix, m, p, number_of_operations, columns, rows
+
 
 # %%
 def cell_identification(antibodies):
@@ -105,7 +108,6 @@ def decode_cells(total_cells, rows, columns, p, log):
     return total_machines, total_parts
     # print(total_machines)
     # print(total_parts)
-
 
 # %%
 def create_machine_part_matrix(matrix, antibodies, total_machines, total_parts):
@@ -170,7 +172,6 @@ def evaluate_antibodies(antibody_matrices, total_cells, number_of_operations): #
     return efficacies, affinities, voids, exceptions
 
 
-
 # %%
 def antibodies_selection(antibodies, N, affinities):
     population_pool = len(antibodies)
@@ -188,14 +189,15 @@ def antibodies_selection(antibodies, N, affinities):
     if nonzero_affinities < size: # if there are more antibodies to be selected than affinities different from zero
         # print("MORE antibodies to be selected than affinities different from zero")
         # print(sel_probabilities)
-        # print("number of antibodies to be selected",size)
-        positions_antibodies_selected = np.random.choice(population_pool, size=nonzero_affinities, replace=False, p = sel_probabilities)
+        # print("number of antibodies to be selected",type(nonzero_affinities))
+        # print(nonzero_affinities)
+        positions_antibodies_selected = np.random.choice(population_pool, size=int(nonzero_affinities), replace=False, p = sel_probabilities)
         sel_probabilities[:] = 1
         sel_probabilities[positions_antibodies_selected] = 0
         sel_probabilities = sel_probabilities/np.sum(sel_probabilities)
         # print("new probabilities",sel_probabilities)
         add_number_of_antibodies = size - nonzero_affinities
-        add_positions_antibodies_selected = np.random.choice(population_pool, size=add_number_of_antibodies, replace=False, p = sel_probabilities)
+        add_positions_antibodies_selected = np.random.choice(population_pool, size=int(add_number_of_antibodies), replace=False, p = sel_probabilities)
         positions_antibodies_selected = np.concatenate((positions_antibodies_selected, add_positions_antibodies_selected), axis = 0)
         antibodies_selected = antibodies[positions_antibodies_selected.tolist()]
         # return print("¡¡ERROR!! en la selección inicial de anticuerpos. INSUFICIENTES ANTICUERPOS CON AFINIDAD > 1")
@@ -203,10 +205,50 @@ def antibodies_selection(antibodies, N, affinities):
     else:
         # print("LESS antibodies to be selected than affinities different from zero")
         # print(sel_probabilities)
-        positions_antibodies_selected = np.random.choice(population_pool, size=size, replace=False, p = sel_probabilities)
+        # print(size)
+        # print(type(size))
+        positions_antibodies_selected = np.random.choice(population_pool, size=int(size), replace=False, p = sel_probabilities)
         antibodies_selected = antibodies[positions_antibodies_selected.tolist()]
         return antibodies_selected, positions_antibodies_selected
 
+# %%
+def antibodies_selection_v2(antibodies, N, affinities):
+    positions_antibodies_selected = []
+    if np.count_nonzero(affinities):
+        sel_probabilities = affinities/np.sum(affinities) #selection probabilities
+    else:
+        sel_probabilities = np.ones(len(affinities))
+        sel_probabilities = sel_probabilities/np.sum(sel_probabilities)
+    # print(sel_probabilities)
+    for i in range(0,len(sel_probabilities)):
+        if N < sel_probabilities[i]: 
+                positions_antibodies_selected.append(i)
+    antibodies_selected = antibodies[(positions_antibodies_selected)]        
+    return antibodies_selected, positions_antibodies_selected
+
+
+# %%
+def antibodies_selection_v3(antibodies, N, affinities):
+    # print(affinities)
+    positions_antibodies_selected = []
+    if not np.count_nonzero(affinities): 
+        sel_probabilities = np.ones(len(affinities)) #solventamos el caso en el que todas las afinidades sean 0
+    else: 
+        sel_probabilities = []
+    affinities = pd.Series(affinities).sort_values()
+    # print(affinities)
+    total_affinity = np.sum(affinities)
+    # print("tota_affinity", total_affinity)
+    sel_probabilities.append(affinities[0]/total_affinity)
+    # print("valor inicial",sel_probabilities[0])
+    for i in range(1,len(affinities)):
+        sel_probabilities.append(sel_probabilities[i-1] + affinities[i]/np.sum(affinities))
+    # print(sel_probabilities)
+    for i in range(0,len(sel_probabilities)):
+        if N < sel_probabilities[i]: 
+            positions_antibodies_selected.append(affinities.index[i])
+    antibodies_selected = antibodies[(positions_antibodies_selected)]        
+    return antibodies_selected, np.array(positions_antibodies_selected)
 
 # %%
 def mutate_cloned_antibodies(cloned_antibodies, log):
@@ -227,7 +269,6 @@ def select_best_cloned_antibodies(antibodies, cloned_antibodies, efficacies,
                                     positions_antibodies_selected,
                                     log):
     #if antibody efficacy improves after mutation, we keep the mutated antibody, otherwise we dismiss it.
-    j = 0
     for i in range(0,len(cloned_antibodies)):
         if cloned_efficacies[i] < efficacies[(positions_antibodies_selected[i])]:
             if log: print("\nclon {} presenta peor eficacia al ser mutado".format(cloned_antibodies[i]))
@@ -246,11 +287,57 @@ def select_best_cloned_antibodies(antibodies, cloned_antibodies, efficacies,
         in heapq.nlargest(
             amount_selected_antibodies,
             ((x, i) for i, x in enumerate(cloned_efficacies)))]
+    # print(positions)
     if log: print("Positions in the pool of updated antibodies",positions_antibodies_selected[(positions)])
     for i in range(0,amount_selected_antibodies):
         antibodies[(positions_antibodies_selected[(positions[i])])] = cloned_antibodies[(positions[i])]
         efficacies[(positions_antibodies_selected[(positions[i])])] = cloned_efficacies[(positions[i])]
         affinities[(positions_antibodies_selected[(positions[i])])] = cloned_affinities[(positions[i])]
+    return antibodies, efficacies, affinities
+
+
+# %%
+# #10% de los que mejoran al mutar
+def select_best_cloned_antibodies_v2(antibodies, cloned_antibodies, efficacies, 
+                                    cloned_efficacies,
+                                    affinities,
+                                    cloned_affinities, 
+                                    R, 
+                                    positions_antibodies_selected,
+                                    log):
+    #if antibody efficacy improves after mutation, we keep the mutated antibody, otherwise we dismiss it.
+    pool_positions_antibodies_improved, position_antibodies_improved = [], []
+    cloned_efficacies = np.array(cloned_efficacies)
+    cloned_affinities = np.array(cloned_affinities)
+    for i in range(0,len(cloned_antibodies)):
+        if cloned_efficacies[i] < efficacies[(positions_antibodies_selected[i])]:
+            if log: print("\nclon {} presents worse efficacy while mutating".format(cloned_antibodies[i]))
+            if log: print("Mutated clon efficacy",cloned_efficacies[i])
+            if log: print("Non-mutated clon efficacy",efficacies[(positions_antibodies_selected[i])])
+            if log: print("Keep original clon {}".format(antibodies[(positions_antibodies_selected[i])]))
+        else:
+            pool_positions_antibodies_improved.append(positions_antibodies_selected[i])
+            position_antibodies_improved.append(i)
+    if log: print("\nPositions (clone-pool) of antibodies that improved while mutating", position_antibodies_improved)
+        
+    cloned_antibodies = cloned_antibodies[(position_antibodies_improved)]
+    cloned_efficacies = cloned_efficacies[(position_antibodies_improved)]
+    cloned_affinities = cloned_affinities[(position_antibodies_improved)]
+    amount_selected_antibodies = round(len(pool_positions_antibodies_improved)*R)
+
+    #2nd part of the function: select R% of the best (efficacy) cloned antibodies
+    if log: print("\n{} antibodies were selected and updated in the pool".format(amount_selected_antibodies))
+    positions = [i #positions of best R% of selected antibodies
+        for x, i
+        in heapq.nlargest(
+            amount_selected_antibodies,
+            ((x, i) for i, x in enumerate(cloned_efficacies)))]
+    # print(positions)
+    if log: print("Positions (pool) of updated antibodies",positions_antibodies_selected[(positions)])
+    for i in range(0,amount_selected_antibodies):
+        antibodies[(pool_positions_antibodies_improved[(positions[i])])] = cloned_antibodies[(positions[i])]
+        efficacies[(pool_positions_antibodies_improved[(positions[i])])] = cloned_efficacies[(positions[i])]
+        affinities[(pool_positions_antibodies_improved[(positions[i])])] = cloned_affinities[(positions[i])]
     return antibodies, efficacies, affinities
 
 
@@ -268,5 +355,3 @@ def receptor_editing(antibodies_pool,efficacies,affinities, B, log):
     efficacies = np.delete(efficacies, positions, axis=0)
     affinities = np.delete(affinities, positions, axis=0)
     return antibodies_pool, efficacies, affinities, amount_antibodies
-
-
