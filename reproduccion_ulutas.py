@@ -232,7 +232,8 @@ def antibodies_selection_v3(antibodies, N, affinities):
     # print(affinities)
     positions_antibodies_selected = []
     if not np.count_nonzero(affinities): 
-        sel_probabilities = np.ones(len(affinities)) #solventamos el caso en el que todas las afinidades sean 0
+        # sel_probabilities = np.ones(len(affinities)) #solventamos el caso en el que todas las afinidades sean 0
+        sel_probabilities = [1 for i in range(0,len(affinities))]
     else: 
         sel_probabilities = []
     affinities = pd.Series(affinities).sort_values()
