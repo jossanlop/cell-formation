@@ -1,0 +1,2542 @@
+('C:\\Users\\José '
+ 'Enrique\\Desktop\\cell-formation\\cell-formation\\experimento2_A16_A32\\build\\experimento2_A16_A32\\PYZ-00.pyz',
+ [('pkg_resources',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\struct.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\configparser.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\argparse.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\gettext.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\bz2.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\selectors.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\random.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\signal.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ssl.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\getopt.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\typing.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\queue.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\runpy.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\secrets.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\optparse.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\numbers.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tty.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\cmd.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\difflib.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('csv',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\csv.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\token.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\string.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\uuid.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\imp.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ast.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\platform.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\stat.py',
+   'PYMODULE'),
+  ('zipimport',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\__future__.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('reproduccion_ulutas',
+   'C:\\Users\\José '
+   'Enrique\\Desktop\\cell-formation\\cell-formation\\experimento2_A16_A32\\reproduccion_ulutas.py',
+   'PYMODULE'),
+  ('os',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\os.py',
+   'PYMODULE'),
+  ('pandas',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('json',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.string',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\string.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.latex',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\latex.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.methods',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\ops\\methods.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.util.version',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\util\\version\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util.testing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\util\\testing.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_testing\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing.contexts',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_testing\\contexts.py',
+   'PYMODULE'),
+  ('pandas._testing.compat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_testing\\compat.py',
+   'PYMODULE'),
+  ('pandas._testing.asserters',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_testing\\asserters.py',
+   'PYMODULE'),
+  ('pandas._testing._warnings',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_testing\\_warnings.py',
+   'PYMODULE'),
+  ('pandas._testing._random',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_testing\\_random.py',
+   'PYMODULE'),
+  ('pandas._testing._io',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_testing\\_io.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.roperator',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.numeric',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.ops',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\internals\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._mixins',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.transforms',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_reductions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.replace',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.quantile',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\array_algos\\quantile.py',
+   'PYMODULE'),
+  ('pandas.core.internals.base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\internals\\base.py',
+   'PYMODULE'),
+  ('pandas.core.internals.array_manager',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\internals\\array_manager.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.take',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\array_algos\\take.py',
+   'PYMODULE'),
+  ('pandas.core.internals.api',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\internals\\api.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.window.online',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\window\\online.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.indexers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\window\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.window.doc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\window\\doc.py',
+   'PYMODULE'),
+  ('pandas.core.shared_docs',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\shared_docs.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.util.numba_',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\util\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.compat.chainmap',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\compat\\chainmap.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.io.formats.xml',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\xml.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.xml',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\xml.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.readers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\parsers\\readers.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.python_parser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\parsers\\python_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.c_parser_wrapper',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.base_parser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\parsers\\base_parser.py',
+   'PYMODULE'),
+  ('pandas.io.date_converters',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\date_converters.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.tools.times',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\tools\\times.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_utils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\fractions.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy._version',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\_version.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlwt',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\_xlwt.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odswriter',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\_odswriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.io.formats._color_data',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style_render',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\style_render.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.numba_',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.io.formats.info',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\info.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numeric',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.arraylike',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arraylike.py',
+   'PYMODULE'),
+  ('pandas.core.aggregation',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\aggregation.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.core.flags',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\flags.py',
+   'PYMODULE'),
+  ('pandas.core.describe',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\describe.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\strings\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.strings.base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\strings\\base.py',
+   'PYMODULE'),
+  ('pandas.core.strings.accessor',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\strings\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.putmask',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\array_algos\\putmask.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexers.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pytz',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_arrow',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
+   'PYMODULE'),
+  ('pandas.core.strings.object_array',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\strings\\object_array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.floating',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\floating.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.dtype',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\dtype.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.pyarrow',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pandas\\compat\\pyarrow.py',
+   'PYMODULE'),
+  ('numpy',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE')])
