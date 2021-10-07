@@ -12,7 +12,7 @@ import time
 
 
 # %%
-mypath = 'data/instances/A16_A32'
+mypath = '/data/instances/A16_A32'
 datasets = [f for f in listdir(mypath)] #dataset reading
 
 

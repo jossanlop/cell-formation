@@ -8,10 +8,9 @@ import reproduccion_ulutas as rp
 import time
 
 
-# %%
+# %%experimento2_A16_A32\experimento2_A16_A32.py
 path = 'instances/A16_A32/'
 datasets = [f for f in listdir(path)] #dataset reading
-
 
 # %%
 POPULATION_SIZE = 1000   # indicate the initial size of antibodies population

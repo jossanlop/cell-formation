@@ -4,169 +4,29 @@
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\__init__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
+  ('pkg_resources._vendor.packaging.__about__',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
+  ('pkg_resources._vendor.six',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.tags',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
-   'PYMODULE'),
-  ('ctypes',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\__init__.py',
-   'PYMODULE'),
-  ('ctypes._endian',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\_endian.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
    'PYMODULE'),
   ('struct',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\struct.py',
    'PYMODULE'),
-  ('distutils.util',
+  ('pkg_resources._vendor.packaging._compat',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\util.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
-  ('distutils.filelist',
+  ('pkg_resources._vendor.pyparsing',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\filelist.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
    'PYMODULE'),
-  ('distutils.debug',
+  ('uuid',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\debug.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\fnmatch.py',
-   'PYMODULE'),
-  ('distutils.file_util',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\file_util.py',
-   'PYMODULE'),
-  ('distutils.dir_util',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\dir_util.py',
-   'PYMODULE'),
-  ('py_compile',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\py_compile.py',
-   'PYMODULE'),
-  ('importlib._bootstrap_external',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap_external.py',
-   'PYMODULE'),
-  ('importlib.metadata',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\metadata.py',
-   'PYMODULE'),
-  ('importlib.abc',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\abc.py',
-   'PYMODULE'),
-  ('importlib._bootstrap',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap.py',
-   'PYMODULE'),
-  ('contextlib',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\contextlib.py',
-   'PYMODULE'),
-  ('configparser',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\configparser.py',
-   'PYMODULE'),
-  ('email',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\__init__.py',
-   'PYMODULE'),
-  ('email._header_value_parser',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_header_value_parser.py',
-   'PYMODULE'),
-  ('email.utils',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\utils.py',
-   'PYMODULE'),
-  ('email._parseaddr',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_parseaddr.py',
-   'PYMODULE'),
-  ('calendar',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\calendar.py',
-   'PYMODULE'),
-  ('argparse',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\argparse.py',
-   'PYMODULE'),
-  ('copy',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\copy.py',
-   'PYMODULE'),
-  ('gettext',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\gettext.py',
-   'PYMODULE'),
-  ('shutil',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\shutil.py',
-   'PYMODULE'),
-  ('tarfile',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tarfile.py',
-   'PYMODULE'),
-  ('gzip',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\gzip.py',
-   'PYMODULE'),
-  ('_compression',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_compression.py',
-   'PYMODULE'),
-  ('lzma',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\lzma.py',
-   'PYMODULE'),
-  ('bz2',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\bz2.py',
-   'PYMODULE'),
-  ('threading',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\threading.py',
-   'PYMODULE'),
-  ('_threading_local',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_threading_local.py',
-   'PYMODULE'),
-  ('urllib.parse',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\parse.py',
-   'PYMODULE'),
-  ('datetime',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\datetime.py',
-   'PYMODULE'),
-  ('_strptime',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_strptime.py',
-   'PYMODULE'),
-  ('socket',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\socket.py',
-   'PYMODULE'),
-  ('selectors',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\selectors.py',
-   'PYMODULE'),
-  ('random',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\random.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\uuid.py',
    'PYMODULE'),
   ('hashlib',
    'c:\\users\\josé '
@@ -180,13 +40,17 @@
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pickle.py',
    'PYMODULE'),
-  ('pprint',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pprint.py',
-   'PYMODULE'),
   ('doctest',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\doctest.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\argparse.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\gettext.py',
    'PYMODULE'),
   ('unittest',
    'c:\\users\\josé '
@@ -212,6 +76,10 @@
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\loader.py',
    'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\fnmatch.py',
+   'PYMODULE'),
   ('unittest.suite',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\suite.py',
@@ -219,6 +87,10 @@
   ('unittest.case',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\contextlib.py',
    'PYMODULE'),
   ('unittest.async_case',
    'c:\\users\\josé '
@@ -236,6 +108,10 @@
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\log.py',
    'PYMODULE'),
+  ('selectors',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\selectors.py',
+   'PYMODULE'),
   ('asyncio.windows_events',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\windows_events.py',
@@ -251,6 +127,10 @@
   ('ssl',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ssl.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\calendar.py',
    'PYMODULE'),
   ('base64',
    'c:\\users\\josé '
@@ -336,6 +216,10 @@
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\heap.py',
    'PYMODULE'),
+  ('bisect',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\bisect.py',
+   'PYMODULE'),
   ('multiprocessing.resource_tracker',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\resource_tracker.py',
@@ -347,6 +231,102 @@
   ('runpy',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\runpy.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\configparser.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\quopri.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('csv',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\csv.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\token.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\__init__.py',
    'PYMODULE'),
   ('multiprocessing.process',
    'c:\\users\\josé '
@@ -431,6 +411,14 @@
   ('xmlrpc',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_compression.py',
    'PYMODULE'),
   ('xml.parsers.expat',
    'c:\\users\\josé '
@@ -528,10 +516,6 @@
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\contentmanager.py',
    'PYMODULE'),
-  ('email.quoprimime',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\quoprimime.py',
-   'PYMODULE'),
   ('email.headerregistry',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\headerregistry.py',
@@ -547,10 +531,6 @@
   ('email._policybase',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_policybase.py',
-   'PYMODULE'),
-  ('quopri',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\quopri.py',
    'PYMODULE'),
   ('uu',
    'c:\\users\\josé '
@@ -640,6 +620,74 @@
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\util.py',
    'PYMODULE'),
+  ('difflib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\difflib.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\random.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\socket.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\bz2.py',
+   'PYMODULE'),
   ('pdb',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pdb.py',
@@ -708,65 +756,97 @@
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\cmd.py',
    'PYMODULE'),
-  ('difflib',
+  ('threading',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\difflib.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\threading.py',
    'PYMODULE'),
-  ('_compat_pickle',
+  ('_threading_local',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_compat_pickle.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_threading_local.py',
    'PYMODULE'),
-  ('bisect',
+  ('datetime',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\bisect.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\datetime.py',
    'PYMODULE'),
-  ('email._encoded_words',
+  ('_strptime',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\_encoded_words.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_strptime.py',
    'PYMODULE'),
-  ('urllib',
+  ('pprint',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\__init__.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pprint.py',
    'PYMODULE'),
-  ('email.header',
+  ('copy',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\header.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\copy.py',
    'PYMODULE'),
-  ('email.base64mime',
+  ('string',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\base64mime.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\string.py',
    'PYMODULE'),
-  ('email.charset',
+  ('pkg_resources._vendor.packaging.version',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\charset.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
    'PYMODULE'),
-  ('email.encoders',
+  ('pkg_resources._vendor.packaging.specifiers',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\encoders.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
-  ('email.errors',
+  ('pkg_resources._vendor.packaging._structures',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\email\\errors.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
-  ('csv',
+  ('pkg_resources._vendor',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\csv.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
-  ('importlib',
+  ('pkg_resources._vendor.packaging',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\__init__.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
-  ('tokenize',
+  ('pkg_resources._vendor.packaging.requirements',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tokenize.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
    'PYMODULE'),
-  ('token',
+  ('pkg_resources._vendor.appdirs',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\token.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
    'PYMODULE'),
-  ('subprocess',
+  ('pkg_resources._vendor.packaging.markers',
    'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\subprocess.py',
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\py_compile.py',
    'PYMODULE'),
   ('distutils.sysconfig',
    'c:\\users\\josé '
@@ -811,86 +891,6 @@
   ('distutils.errors',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\errors.py',
-   'PYMODULE'),
-  ('string',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\string.py',
-   'PYMODULE'),
-  ('importlib.util',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\util.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.six',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.specifiers',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._structures',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.pyparsing',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
-   'PYMODULE'),
-  ('uuid',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\uuid.py',
-   'PYMODULE'),
-  ('ctypes.util',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\util.py',
-   'PYMODULE'),
-  ('ctypes._aix',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\_aix.py',
-   'PYMODULE'),
-  ('ctypes.macholib.dyld',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\dyld.py',
-   'PYMODULE'),
-  ('ctypes.macholib',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\__init__.py',
-   'PYMODULE'),
-  ('ctypes.macholib.dylib',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\dylib.py',
-   'PYMODULE'),
-  ('ctypes.macholib.framework',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\macholib\\framework.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.requirements',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.appdirs',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.version',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
    'PYMODULE'),
   ('sysconfig',
    'c:\\users\\josé '
@@ -976,13 +976,13 @@
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\pathlib.py',
    'PYMODULE'),
-  ('_py_abc',
-   'c:\\users\\josé '
-   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('tracemalloc',
    'c:\\users\\josé '
    'enrique\\appdata\\local\\programs\\python\\python38\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\josé '
+   'enrique\\appdata\\local\\programs\\python\\python38\\lib\\_py_abc.py',
    'PYMODULE'),
   ('stringprep',
    'c:\\users\\josé '
