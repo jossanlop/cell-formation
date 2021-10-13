@@ -1,0 +1,3 @@
+POPULATION_SIZE = 100
+R = 1
+B = 0.1
