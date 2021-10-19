@@ -59,26 +59,20 @@ def part_machine_incidence_matrix(data):
 def cell_identification(antibodies):
     total_cells = []
     for antibodie in antibodies:
-        # print("antibodie", antibodie)
         flag = 1 #bandera que indica si el num anterior es un cero
         cells, cell = [],[]
-        i = 0
         for num in antibodie:
             if (num == 0): 
-                if flag == 0: 
-                    i=i+1
+                if flag == 0:
                     cells.append(cell)
-                    # print(cell)
                     cell = []
                 flag = 1
             else: 
                 cell.append(num)
-                # print(num)
                 flag = 0
                 if num == antibodie[len(antibodie)-1]:
                     cells.append(cell)
         total_cells.append(cells)
-        # print("cells", cells)
     # print("list of all cells for all antibodies",total_cells)
     # print("cells for antibody 1",total_cells[0])
     return total_cells
@@ -125,7 +119,7 @@ def evaluate_antibodies(antibody_matrices, total_cells, number_of_operations): #
     for i in range(0,len(total_cells)):
         # print("\n",total_cells[i])
         # print(antibody_matrices[i])
-        void, exception, penalty, operations_number = 0,0,0,0 #operations_number is number of 'ones' in part-machine matrix
+        void, exception, penalty = 0,0,0
         cell_machine_flag, cell_flag_part = 0,0
         for cell in total_cells[i]:
             # print(cell)
