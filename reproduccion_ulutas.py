@@ -222,7 +222,7 @@ def antibodies_selection_v2(antibodies, N, affinities):
 
 
 # %%
-def antibodies_selection_v3(antibodies, N, affinities):
+def antibodies_selection_v3(antibodies, N, affinities): #selection roulette wheel 
     # print(affinities)
     positions_antibodies_selected = []
     if not np.count_nonzero(affinities): 
@@ -231,14 +231,11 @@ def antibodies_selection_v3(antibodies, N, affinities):
     else: 
         sel_probabilities = []
     affinities = pd.Series(affinities).sort_values()
-    # print(affinities)
     total_affinity = np.sum(affinities)
-    # print("tota_affinity", total_affinity)
     sel_probabilities.append(affinities[0]/total_affinity)
-    # print("valor inicial",sel_probabilities[0])
     for i in range(1,len(affinities)):
         sel_probabilities.append(sel_probabilities[i-1] + affinities[i]/np.sum(affinities))
-    # print(sel_probabilities)
+    
     for i in range(0,len(sel_probabilities)):
         if N < sel_probabilities[i]: 
             positions_antibodies_selected.append(affinities.index[i])
